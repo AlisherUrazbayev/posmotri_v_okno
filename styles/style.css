@@ -53,8 +53,8 @@ ol {
 }
 
 .content {
-  margin-top: 100px;
-  padding: 133px 30px; 
+  padding: 133px 30px;
+  padding-top: 210px; 
   display: flex;
   justify-content: center;
   gap: 30px;
