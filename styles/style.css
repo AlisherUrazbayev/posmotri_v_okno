@@ -50,7 +50,7 @@ ol {
 .content {
   padding: 275px 30px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
 }
 
