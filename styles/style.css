@@ -144,9 +144,8 @@ ol {
   width: 15px;
   height: 15px; 
   background: #FFF;
-  position: absolute;
-  left: 1px;
-  top: 1px;
+  display: block;
+  margin: 1px;
 }
 
 .search-form__pseudo-checkbox:active:before {
@@ -154,9 +153,8 @@ ol {
   width: 15px;
   height: 15px; 
   background: #FFF;
-  position: absolute;
-  left: 1px;
-  top: 1px;
+  display: block;
+  margin: 1px;
 }
 
 .search-form__label .search-form__label-text {
