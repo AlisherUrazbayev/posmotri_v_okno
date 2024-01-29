@@ -123,6 +123,7 @@ ol {
 
 .search-form__textfield:active {
   outline: 1px solid #FFF;
+  outline-offset: 1px;
 }
 
 .search-form__label .search-form__pseudo-checkbox {
@@ -140,20 +141,22 @@ ol {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: "";
-  display: block;
-  width: 80%;
-  height: 80%; 
+  width: 15px;
+  height: 15px; 
   background: #FFF;
-  margin: 10%;
+  position: absolute;
+  left: 1px;
+  top: 1px;
 }
 
-.search-form__pseudo-checkbox:active::before {
+.search-form__pseudo-checkbox:active:before {
   content: "";
-  display: block;
-  width: 80%;
-  height: 80%; 
+  width: 15px;
+  height: 15px; 
   background: #FFF;
-  margin: 10%;
+  position: absolute;
+  left: 1px;
+  top: 1px;
 }
 
 .search-form__label .search-form__label-text {
@@ -210,6 +213,7 @@ ol {
 
 .button:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: 1px;
 }
 
 .search-form__submit-button {
